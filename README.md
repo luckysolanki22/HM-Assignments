@@ -1,7 +1,5 @@
 # HM-assignments
-cricket website
-birthday
-cards
+
 <ol>
   <li>cricket</li>
   <li>birthday</li>
