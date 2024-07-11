@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- internal css 2nd high priority -->
+    <style>
+        /* universal selector  implements properties to alltags*/
+        *{
+            margin:0; 
+            background-color: rgb(140, 255, 0);
+        }
+        /* element selector */
+        h1{
+            background-color: aqua;
+        }
+        /* using class we can use diff diff properties on the diff number of same tags using class name */
+        .head2{
+            background-color: azure;
+            color: aqua;
+    
+        }
+        #head3{
+            color: bisque;
+        }
+        #headid{
+            color: rgb(94, 37, 142);
+        }
+            p{
+                color:red;
+                background-color: antiquewhite;
+            }
+            button{
+                background-color: aquamarine;
+            }
+            li[value=3]
+            {
+                background-color: aqua;
+            }
+            button[value="4"]
+            {
+                background-color: aqua;
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    
+    <!-- inline css  highest priority given-->
+    <h1 style="background-color: aqua;" >movie booking</h1>
+    <h1 class="head2" id="headid">hi hi</h1>
+    <p>hello there my name is lucky</p><br>
+    <p>and i love sports</p><br><br>
+    <p class="head2"id="head3">hello there my name is ridhima</p>
+    <p class="head2">hello there my name is abhay</p>
+    <p class="head2 " >hello there my name is lucky</p>
+
+    <!-- external css -->
+     <h3> this is used for external css</h3>
+    <button class="head2">click here</button>
+    <li value="3">hi</li>
+    <button value="4">submit</button>
+     
+</body>
+</html>

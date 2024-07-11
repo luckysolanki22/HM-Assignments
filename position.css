@@ -1,0 +1,52 @@
+body {
+    height: 2000px; /* Added height to demonstrate fixed and sticky positioning */
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Static position (default) */
+.static {
+    background-color: red;
+    position: static;
+}
+
+/* Relative position */
+.relative {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/* Absolute position */
+.absolute {
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+/* Fixed position */
+.fixed {
+    background-color: purple;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* Sticky position */
+.sticky {
+    background-color: orange;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px;
+}
