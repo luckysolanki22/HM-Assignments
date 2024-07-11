@@ -1,9 +1,4 @@
 # HM-assignments
-<styles>
-  ol{ 
-  text-decoration:none;
-  }
-</styles>
 <ol>
   <li><a href="https://luckysolanki22.github.io/HM-Assignments/birthday">birthday</a></li>
   <li><a href="https://luckysolanki22.github.io/HM-Assignments/cards">cards</a></li>
